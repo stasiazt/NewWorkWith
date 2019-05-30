@@ -7,6 +7,11 @@ class TriangleTest {
 
     @Test
     void getArea() {
+
+        Triangle triangle = new Triangle();
+        triangle.setBase(10);
+        triangle.setHeigth(16);
+        Assertions.assertEquals(80, triangle.getArea());
 //        Circle circle = new Circle();
 //        circle.setRadius(10);
 //        double testData = circle.getArea();
